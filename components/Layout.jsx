@@ -10,9 +10,9 @@ function Layout({ children }) {
     return (
         <>
         <header className="site-header">
-            <logo>
+            <div className="logo">
                 <Link href="/">Dave Hill</Link>
-            </logo>
+            </div>
             <nav>
                 <ul className="site-header__nav">
                     <li>
