@@ -4,11 +4,11 @@
   "description": "Website of Dave Hill",
   "main": "index.js",
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint"
-},
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Isdavehill/my-website.git"
@@ -22,7 +22,9 @@
   "homepage": "https://github.com/Isdavehill/my-website#readme",
   "dependencies": {
     "next": "^13.3.4",
+    "open-props": "^1.5.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0"
   }
 }
