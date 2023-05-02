@@ -4,23 +4,23 @@ const Year = new Date().getFullYear();
 function Layout({ children }) {
     return (
         <>
-        <header>
+        <header className="site-header">
             <logo>
-                <Link href="/"></Link>
+                <Link href="/">Dave Hill</Link>
             </logo>
             <nav>
                 <ul className="site-header__nav">
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">Journey</Link>
                     </li>
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">Thoughts</Link>
                     </li>
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">Nerd Stuff</Link>
                     </li>
                     <li>
-                        <Link href=""></Link>
+                        <Link href="">Jasper</Link>
                     </li>
                 </ul>
             </nav>
