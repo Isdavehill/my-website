@@ -1,4 +1,4 @@
-
+@import "open-props/style";
 *,
 *::before,
 *::after {
@@ -12,6 +12,10 @@
 
 html,
 body {
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-9);
+  font-family: var(--font-sans);
+  font-size: clamp(14px, 2vw, 18px);
   min-height: 100%;
 }
 
