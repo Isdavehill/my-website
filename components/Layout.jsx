@@ -1,7 +1,10 @@
 import Link from "next/link";
 const Year = new Date().getFullYear();
-import { FaHeart } from "react-icons/fa";
+import { FaCat, FaHeart } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import { TbMoodNerd } from "react-icons/tb";
+import { TfiThought } from "react-icons/tfi";
+import { GiJourney } from "react-icons/gi";
 
 function Layout({ children }) {
     return (
@@ -13,16 +16,16 @@ function Layout({ children }) {
             <nav>
                 <ul className="site-header__nav">
                     <li>
-                        <Link href="">Journey</Link>
+                        <Link href="">Journey <GiJourney role="img" /></Link>
                     </li>
                     <li>
-                        <Link href="">Thoughts</Link>
+                        <Link href="">Thoughts <TfiThought role="img" /></Link>
                     </li>
                     <li>
-                        <Link href="">Nerd Stuff</Link>
+                        <Link href="">Nerd Stuff <TbMoodNerd role="img" /></Link>
                     </li>
                     <li>
-                        <Link href="">Jasper</Link>
+                        <Link href="">Jasper <FaCat role="img" /></Link>
                     </li>
                 </ul>
             </nav>
