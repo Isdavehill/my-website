@@ -16,16 +16,16 @@ function Layout({ children }) {
             <nav>
                 <ul className="site-header__nav">
                     <li>
-                        <Link href="">Journey <GiJourney role="img" /></Link>
+                        <Link href="/journey">Journey <GiJourney role="img" /></Link>
                     </li>
                     <li>
-                        <Link href="">Thoughts <TfiThought role="img" /></Link>
+                        <Link href="/thoughts">Thoughts <TfiThought role="img" /></Link>
                     </li>
                     <li>
-                        <Link href="">Nerd Stuff <TbMoodNerd role="img" /></Link>
+                        <Link href="/nerd-stuff">Nerd Stuff <TbMoodNerd role="img" /></Link>
                     </li>
                     <li>
-                        <Link href="">Jasper <FaCat role="img" /></Link>
+                        <Link href="/jasper">Jasper <FaCat role="img" /></Link>
                     </li>
                 </ul>
             </nav>
